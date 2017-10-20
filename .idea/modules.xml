@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/API-Creator.iml" filepath="$PROJECT_DIR$/API-Creator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/API-Creator_main.iml" filepath="$PROJECT_DIR$/.idea/modules/API-Creator_main.iml" group="API-Creator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/API-Creator_test.iml" filepath="$PROJECT_DIR$/.idea/modules/API-Creator_test.iml" group="API-Creator" />
+    </modules>
+  </component>
+</project>
