@@ -1,0 +1,24 @@
+.login_field {
+    -fx-border-radius: 100px;
+    -fx-font-size: 14px;
+    -fx-text-fill: #acacac;
+    -fx-prompt-text-fill: #acacac;
+    -fx-background-color: #fff;
+}
+
+.login_field_focus {
+    -fx-border-radius: 100px;
+    -fx-font-size: 14px;
+    -fx-border-color: #80c5ff;
+    -fx-text-fill: #101015;
+    -fx-prompt-text-fill: #101015;
+    -fx-background-color: #fff;
+}
+
+.login_submit {
+    -fx-border-radius: 100px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #fff;
+    -fx-background-color: #80c5ff;
+}
