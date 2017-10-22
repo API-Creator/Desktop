@@ -1,24 +1,45 @@
 .login_field {
     -fx-border-radius: 100px;
+    -fx-background-radius: 100px;
     -fx-font-size: 14px;
     -fx-text-fill: #acacac;
     -fx-prompt-text-fill: #acacac;
     -fx-background-color: #fff;
+    -webkit-fx-box-: 0 5px 5px 0 rgba(128, 197, 255, 0.2);
+    -moz-fx-box-: 0 5px 5px 0 rgba(128, 197, 255, 0.2);
+    -ms-fx-box-: 0 5px 5px 0 rgba(128, 197, 255, 0.2);
+    -o-fx-box-: 0 5px 5px 0 rgba(128, 197, 255, 0.2);
+    -khtml-fx-box-: 0 5px 5px 0 rgba(128, 197, 255, 0.2);
+    fx-box-: 0 5px 5px 0 rgba(128, 197, 255, 0.2);
 }
 
 .login_field_focus {
     -fx-border-radius: 100px;
+    -fx-background-radius: 100px;
     -fx-font-size: 14px;
     -fx-border-color: #80c5ff;
     -fx-text-fill: #101015;
     -fx-prompt-text-fill: #101015;
     -fx-background-color: #fff;
+    -webkit-fx-box-: 0 5px 5px 0 rgba(128, 197, 255, 0.2);
+    -moz-fx-box-: 0 5px 5px 0 rgba(128, 197, 255, 0.2);
+    -ms-fx-box-: 0 5px 5px 0 rgba(128, 197, 255, 0.2);
+    -o-fx-box-: 0 5px 5px 0 rgba(128, 197, 255, 0.2);
+    -khtml-fx-box-: 0 5px 5px 0 rgba(128, 197, 255, 0.2);
+    fx-box-: 0 5px 5px 0 rgba(128, 197, 255, 0.2);
 }
 
 .login_submit {
     -fx-border-radius: 100px;
+    -fx-background-radius: 100px;
     -fx-font-size: 14px;
     -fx-font-weight: bold;
     -fx-text-fill: #fff;
     -fx-background-color: #80c5ff;
+    -webkit-fx-box-: 0 5px 5px 0 rgba(128, 197, 255, 0.2);
+    -moz-fx-box-: 0 5px 5px 0 rgba(128, 197, 255, 0.2);
+    -ms-fx-box-: 0 5px 5px 0 rgba(128, 197, 255, 0.2);
+    -o-fx-box-: 0 5px 5px 0 rgba(128, 197, 255, 0.2);
+    -khtml-fx-box-: 0 5px 5px 0 rgba(128, 197, 255, 0.2);
+    fx-box-: 0 5px 5px 0 rgba(128, 197, 255, 0.2);
 }

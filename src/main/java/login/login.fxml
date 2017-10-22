@@ -25,7 +25,19 @@
         <ImageView fitHeight="550.0" fitWidth="849.0" pickOnBounds="true" preserveRatio="true">
             <Image url="@../../../../resource/image/annie-spratt-294450.jpg" />
         </ImageView>
-        <Pane opacity="0.85" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #80c5ff;" />
+        <Pane opacity="0.85" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #80c5ff;">
+         <children>
+            <Label layoutX="50.0" layoutY="436.0" text="Hello World!" textFill="WHITE">
+               <font>
+                  <Font name="Symbol" size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="50.0" layoutY="476.0" text="효과적인 코드관리를 API Creator에서 시작해보세요!" textFill="WHITE">
+               <font>
+                  <Font name="Symbol" size="14.0" />
+               </font>
+            </Label>
+         </children></Pane>
         <ImageView fitHeight="150.0" fitWidth="145.0" pickOnBounds="true" preserveRatio="true" StackPane.alignment="TOP_LEFT">
             <StackPane.margin>
                 <Insets left="38.0" top="35.0" />
@@ -40,7 +52,7 @@
         <ImageView fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true" x="142.0" y="100.0">
             <Image url="@../../../../resource/image/login-icon@3x.png" />
         </ImageView>
-        <TextField fx:id="idField" alignment="CENTER" layoutX="35.0" layoutY="297.0" minHeight="48.0" minWidth="280.0" promptText="아이디" styleClass="login_field_focus" stylesheets="@../../../../resource/css/login.css">
+        <TextField fx:id="idField" alignment="CENTER" layoutX="35.0" layoutY="297.0" minHeight="48.0" minWidth="280.0" promptText="아이디" styleClass="login_field" stylesheets="@../../../../resource/css/login.css">
             <font>
                 <Font size="14.0" />
             </font>
@@ -50,11 +62,16 @@
                 <Font size="14.0" />
             </font>
         </TextField>
-        <Button fx:id="loginBtn" layoutX="35.0" layoutY="459.0" minHeight="48.0" minWidth="280.0" mnemonicParsing="false" styleClass="login_btn_submit" stylesheets="@../../../../resource/css/login.css" text="로그인" />
-        <Label layoutX="136.0" layoutY="206.0" text="Login" textFill="#232323">
+        <Button fx:id="loginBtn" layoutX="35.0" layoutY="459.0" minHeight="48.0" minWidth="280.0" mnemonicParsing="false" styleClass="login_submit" stylesheets="@../../../../resource/css/login.css" text="로그인" />
+        <Label layoutX="136.0" layoutY="195.0" text="Login" textFill="#232323">
             <font>
                 <Font name="Symbol" size="36.0" />
             </font>
         </Label>
+      <Label layoutX="93.0" layoutY="247.0" text="Api Creator에 로그인해주세요." textFill="#7c7c7c">
+         <font>
+            <Font name="Symbol" size="14.0" />
+         </font>
+      </Label>
     </Pane>
 </GridPane>

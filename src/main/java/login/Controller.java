@@ -22,6 +22,21 @@ public class Controller implements Initializable {
 
     @Override
     public void initialize(URL arg0, ResourceBundle arg1) {
+        idField.focusedProperty().addListener((observable, oldValue, newValue) -> {
+            if (newValue) {
+                System.out.println("Focus ID Field!");
+                idField.getStyleClass().add("login_field_focus");
+                pwField.getStyleClass().remove("login_field_focus");
+            }
+        });
+        pwField.focusedProperty().addListener((observable, oldValue, newValue) -> {
+            if (newValue) {
+                System.out.println("Focus Password Field!");
+                pwField.getStyleClass().add("login_field_focus");
+                idField.getStyleClass().remove("login_field_focus");
+            }
+        });
+
         loginBtn.setOnMouseClicked(event -> {
             RetroInit.getInstance().networkList.login(idField.getText(), pwField.getText()).enqueue(new Callback<Login>() {
 
