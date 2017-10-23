@@ -15,18 +15,21 @@
 
 <GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="900.0" style="-fx-border-radius: 12px;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.Controller">
     <columnConstraints>
-        <ColumnConstraints hgrow="SOMETIMES" maxWidth="550.0" minWidth="10.0" prefWidth="550.0" />
         <ColumnConstraints hgrow="SOMETIMES" maxWidth="350.0" minWidth="10.0" prefWidth="350.0" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="550.0" minWidth="10.0" prefWidth="550.0" />
     </columnConstraints>
     <rowConstraints>
         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
     </rowConstraints>
-    <StackPane prefHeight="150.0" prefWidth="200.0">
+    <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1">
         <ImageView fitHeight="550.0" fitWidth="849.0" pickOnBounds="true" preserveRatio="true">
             <Image url="@../../../../resource/image/annie-spratt-294450.jpg" />
         </ImageView>
         <Pane opacity="0.85" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #80c5ff;">
          <children>
+              <ImageView fitHeight="15.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true" x="500.0" y="30.0">
+                  <Image url="@../../../../resource/image/exit-btn@3x.png" />
+              </ImageView>
             <Label layoutX="50.0" layoutY="436.0" text="Hello World!" textFill="WHITE">
                <font>
                   <Font name="Symbol" size="36.0" />
@@ -45,10 +48,7 @@
             <Image url="@../../../../resource/image/api-logo-w@3x.png" />
         </ImageView>
     </StackPane>
-    <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #f8f8f8;" GridPane.columnIndex="1">
-        <ImageView fitHeight="15.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true" x="315.0" y="20.0">
-            <Image url="@../../../../resource/image/exit-btn@3x.png" />
-        </ImageView>
+    <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #f8f8f8;">
         <ImageView fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true" x="142.0" y="100.0">
             <Image url="@../../../../resource/image/login-icon@3x.png" />
         </ImageView>
