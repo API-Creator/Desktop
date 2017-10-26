@@ -1,3 +1,11 @@
+@font-face {
+    /*font-family: 'SpoqaHanSans'; !* 폰트 패밀리 이름 주기*!*/
+    src: url('../fonts/spoqa/SpoqaHanSans-Bold.ttf'); /*폰트 파일 주소*/
+    /*src: url('../fonts/spoqa/SpoqaHanSansThin.ttf'); !*폰트 파일 주소*!*/
+    /*src: url('../fonts/spoqa/SpoqaHanSansRegular.ttf'); !*폰트 파일 주소*!*/
+    /*src: url('../fonts/spoqa/SpoqaHanSansLight.ttf'); !*폰트 파일 주소*!*/
+}
+
 .login_field {
     -fx-border-radius: 100px;
     -fx-background-radius: 100px;
@@ -42,4 +50,16 @@
     -o-fx-box-: 0 5px 5px 0 rgba(128, 197, 255, 0.2);
     -khtml-fx-box-: 0 5px 5px 0 rgba(128, 197, 255, 0.2);
     fx-box-: 0 5px 5px 0 rgba(128, 197, 255, 0.2);
+}
+
+.login_login_text {
+    -fx-font-family: "SpoqaHanSans-Bold";
+    /*-fx-font-weight: bold;*/
+    -webkit-fx-color: #ff444f;
+    -moz-fx-color: #ff444f;
+    -ms-fx-color: #ff444f;
+    -o-fx-color: #ff444f;
+    -khtml-fx-color: #ff444f;
+    fx-color: #ff444f;
+    letter-spacing: -1.9px;
 }
